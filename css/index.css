@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-icon {
+    width: 12px;
+}
+
+
+
+
+.EmailTo {
+    margin: 0;
+    align-self: stretch;
+    color: #1E1E1E;
+    font-size: 10px;
+    font-family: Metropolis;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word
+}
+
+.InfoCodiacksCom {
+    margin: 0;
+    align-self: stretch;
+    color: #1E1E1E;
+    font-size: 10px;
+    font-family: Satoshi;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+.FreeConsultation {
+    background: linear-gradient(142deg, #65CDAA 40%, #3E9175 100%);
+    border-radius: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    display: inline-flex;
+    border: none;
+    padding: 5px 12px;
+    color: white;
+    font-size: 10px;
+    font-family: Satoshi;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.logowidth {
+    width: 50%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+
+
+.et-hero-tab:last-of-type {
+    border-right: none;
+}
+
+.herosection {
+    background-image: url('/assets/images/hero-bg.svg');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.weofferAi {
+        color: white;
+        font-size: 20px;
+        font-family: Satoshi;
+        font-weight: 400;
+        line-height: 32px;
+        word-wrap: break-word;
+}
+
+.FromStrategyToSuccess {
+    color: #65CDAA;
+    font-size: 14px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+    }
+
+.drivingbusiness {
+        color: white;
+        font-size: 40px;
+        font-family: Metropolis;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 60px;
+        word-wrap: break-word;
+}
+
+
+.codiaksb {
+    padding: 8px 30px;
+     background: rgba(101, 205, 170, 0.20);
+     border-radius: 100px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     display: inline-flex;
+     color: #65CDAA;
+     font-size: 20px;
+ }
+
+ .StartYourAiProject {
+
+    color: #65CDAA;
+        font-size: 16px;
+        font-family: Satoshi;
+        font-weight: 500;
+        text-transform: capitalize;
+        word-wrap: break-word;
+            padding: 8px 20px;
+            border-radius: 100px;
+            border: 1px #65CDAA solid;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5px;
+            display: inline-flex;
+            background: none;
+   }
+
+  .Aitechno {
+        height: 512px;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .frame-392 {
+        
+        height: 138px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        display: inline-flex;
+      }
+      
+      .frame-388 {
+      padding: 8px 20px;
+        background: rgba(101, 205, 170, 0.20);
+        border-radius: 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex;
+      }
+      
+      .ai-technologies-text-small {
+        color: #65CDAA;
+        font-size: 14px;
+        font-family: Satoshi, sans-serif;
+        font-weight: 500;
+        word-wrap: break-word;
+      }
+      
+      .ai-technologies-text-large {
+        align-self: stretch;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: Metropolis, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 70px;
+        word-wrap: break-word;
+      }
+      
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .EmailTo {
+        font-size: 16px;
+    }
+
+    .InfoCodiacksCom {
+        font-size: 14px;
+    }
+
+    .email-icon {
+        width: 22px;
+    }
+
+    .FreeConsultation {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .logowidth {
+        width: 75%;
+    }
+
+    .et-hero-tabs {
+        border-top: 1px solid #949494;
+         background: #fff;
+     }
+     
+     .et-hero-tabs-container {
+         display: flex;
+         flex-direction: row;
+         width: 80%;
+         height: 70px;
+     }
+     
+     .et-hero-tab {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex: 1 0;
+         color: #000;
+         letter-spacing: 0.1rem;
+             transition: all 0.5s ease;
+             font-size: 0.8rem;
+             border-right: 1px solid #949494;
+     }
+
+     .et-hero-tabs,
+	.et-slide {
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+	}
+	.et-hero-tab {
+		font-size: 1rem;
+	}
+
+    .pl-6 {
+        padding: .5rem 10rem;
+    }
+
+    .FromStrategyToSuccess {
+        color: #65CDAA;
+        font-size: 14px;
+        font-family: Satoshi;
+        font-weight: 400;
+        line-height: 32px;
+        word-wrap: break-word;
+        }
+
+    .drivingbusiness {
+        width: 559px;
+            color: white;
+            font-size: 50px;
+            font-family: Metropolis;
+            font-weight: 600;
+            text-transform: capitalize;
+            line-height: 70px;
+            word-wrap: break-word;
+    }
+
+    .StartYourAiProject {
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+
+    .frame-392 {
+        
+        height: 138px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        display: inline-flex;
+      }
+      
+      .frame-388 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background: rgba(101, 205, 170, 0.20);
+        border-radius: 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex;
+      }
+      
+      .ai-technologies-text-small {
+        color: #65CDAA;
+        font-size: 18px;
+        font-family: Satoshi, sans-serif;
+        font-weight: 500;
+        word-wrap: break-word;
+      }
+      
+      .ai-technologies-text-large {
+        align-self: stretch;
+        text-align: center;
+        color: white;
+        font-size: 55px;
+        font-family: Metropolis, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 70px;
+        word-wrap: break-word;
+      }
+
+      .techimg {
+        width: 80px;
+      }
+      .techimg2 {
+        width: 150px;
+      }
+
+      .ailogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: .2rem 1.5rem;
+      }
+
+
+}
+
+@media (min-width: 1441px) {
+	.herosection {
+        height: 100vh;
+    } 
+
+    .weofferAi {
+        width: 650px;
+        color: white;
+        font-size: 20px;
+        font-family: Satoshi;
+        font-weight: 400;
+        line-height: 32px;
+        word-wrap: break-word;
+}
+
+
+}
