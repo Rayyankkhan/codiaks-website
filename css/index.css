@@ -60,7 +60,7 @@ body {
 }
 
 a {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 
@@ -78,12 +78,12 @@ a {
 }
 
 .weofferAi {
-        color: white;
-        font-size: 20px;
-        font-family: Satoshi;
-        font-weight: 400;
-        line-height: 32px;
-        word-wrap: break-word;
+    color: white;
+    font-size: 20px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
 }
 
 .FromStrategyToSuccess {
@@ -93,98 +93,306 @@ a {
     font-weight: 400;
     line-height: 32px;
     word-wrap: break-word;
-    }
+}
 
 .drivingbusiness {
-        color: white;
-        font-size: 40px;
-        font-family: Metropolis;
-        font-weight: 600;
-        text-transform: capitalize;
-        line-height: 60px;
-        word-wrap: break-word;
+    color: white;
+    font-size: 40px;
+    font-family: Metropolis;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 60px;
+    word-wrap: break-word;
 }
 
 
 .codiaksb {
     padding: 8px 30px;
-     background: rgba(101, 205, 170, 0.20);
-     border-radius: 100px;
-     justify-content: center;
-     align-items: center;
-     gap: 10px;
-     display: inline-flex;
-     color: #65CDAA;
-     font-size: 20px;
- }
+    background: rgba(101, 205, 170, 0.20);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: #65CDAA;
+    font-size: 20px;
+}
 
- .StartYourAiProject {
+.StartYourAiProject {
 
     color: #65CDAA;
-        font-size: 16px;
-        font-family: Satoshi;
-        font-weight: 500;
-        text-transform: capitalize;
-        word-wrap: break-word;
-            padding: 8px 20px;
-            border-radius: 100px;
-            border: 1px #65CDAA solid;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 5px;
-            display: inline-flex;
-            background: none;
-   }
+    font-size: 16px;
+    font-family: Satoshi;
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    padding: 8px 20px;
+    border-radius: 100px;
+    border: 1px #65CDAA solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    display: inline-flex;
+    background: none;
+}
 
-  .Aitechno {
-        height: 512px;
-        background: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+.Aitechno {
+    padding: 1rem 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    .frame-392 {
-        
-        height: 138px;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 5px;
-        display: inline-flex;
-      }
-      
-      .frame-388 {
-      padding: 8px 20px;
-        background: rgba(101, 205, 170, 0.20);
-        border-radius: 100px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        display: inline-flex;
-      }
-      
-      .ai-technologies-text-small {
-        color: #65CDAA;
-        font-size: 14px;
-        font-family: Satoshi, sans-serif;
-        font-weight: 500;
-        word-wrap: break-word;
-      }
-      
-      .ai-technologies-text-large {
-        align-self: stretch;
-        text-align: center;
-        color: white;
-        font-size: 25px;
-        font-family: Metropolis, sans-serif;
-        font-weight: 600;
-        text-transform: capitalize;
-        line-height: 70px;
-        word-wrap: break-word;
-      }
-      
+.frame-392 {
+
+    height: 138px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    display: inline-flex;
+}
+
+.frame-388 {
+    padding: 8px 20px;
+    background: rgba(101, 205, 170, 0.20);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.ai-technologies-text-small {
+    color: #65CDAA;
+    font-size: 14px;
+    font-family: Satoshi, sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.ai-technologies-text-large {
+    align-self: stretch;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Metropolis, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 70px;
+    word-wrap: break-word;
+}
+
+
+.OurStory {
+    color: #1E1E1E;
+    font-size: 30px;
+    font-family: Metropolis;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 50px;
+    word-wrap: break-word;
+}
+
+.aboutimg,
+.aboutusz {
+    width: 100%;
+}
+
+.aboutimgs {
+    width: 100%;
+}
+
+.techimg {
+    width: 50px;
+}
+
+.techimg2 {
+    width: 130px;
+}
+
+.CodiaksSpec span {
+    color: #1E1E1E;
+    font-size: 14px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+.CodiaksSpec>.span2 {
+    font-weight: 600;
+}
+
+.services {
+    padding: 7rem 1rem 0 1rem;
+
+    background: #FAFAFA;
+    border-top: 1px #D1D1D1 solid;
+    border-bottom: 1px #D1D1D1 solid;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
+
+.Frame487 {
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: inline-flex;
+}
+
+.Frame388 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: rgba(101, 205, 170, 0.20);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.OurServices {
+    color: #65CDAA;
+    font-size: 18px;
+    font-family: Satoshi;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.AiServicesSection {
+    align-self: stretch;
+    color: #1E1E1E;
+    font-size: 30px;
+    font-family: Metropolis;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.UnlockThe {
+ 
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.round-btn {
+    width: 59px;
+    height: 59px;
+    border-radius: 9999px;
+    border: 1px #65CDAA solid;
+    background: transparent;
+}
+
+.Frame489 {
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+
+.div1 {
+    width: 100%;
+}
+
+.card1 {
+    padding: 1rem;
+    height: 315px;
+    border-bottom: 1px solid #949494;
+    
+  
+}
+
+.card2 {
+    padding: 1rem;
+    height: 315px;
+    border-bottom: 1px solid #949494;
+    
+}
+.card3 {
+    padding: 1rem;
+   
+    height: 315px;
+    border-bottom: 1px solid #949494;
+  
+    
+}
+
+
+.group {
+    width: 100%;
+    height: 523px;
+    
+  }
+  
+  .rectangle-outer {
+    width: 100%;
+    height: 523px;
+    position: absolute;
+    background: #FAFAFA;
+    border-radius: 20px;
+  }
+  
+  .rectangle-inner {
+    width: 100%;
+    height: 322px;
+  
+    background: #D9D9D9;
+    border-radius: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 322px;
+
+    border-radius: 20px;
+  }
+  
+  .frame {
+    width: 100%;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .title {
+    align-self: stretch;
+    color: #1E1E1E;
+    font-size: 30px;
+    font-family: Metropolis, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .description {
+    width: 100%;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-family: Satoshi, sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+  }
+
 
 
 
@@ -215,40 +423,42 @@ a {
 
     .et-hero-tabs {
         border-top: 1px solid #949494;
-         background: #fff;
-     }
-     
-     .et-hero-tabs-container {
-         display: flex;
-         flex-direction: row;
-         width: 80%;
-         height: 70px;
-     }
-     
-     .et-hero-tab {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex: 1 0;
-         color: #000;
-         letter-spacing: 0.1rem;
-             transition: all 0.5s ease;
-             font-size: 0.8rem;
-             border-right: 1px solid #949494;
-     }
-
-     .et-hero-tabs,
-	.et-slide {
-    h1 {
-        font-size: 3rem;
+        background: #fff;
     }
-    h3 {
+
+    .et-hero-tabs-container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 70px;
+    }
+
+    .et-hero-tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0;
+        color: #000;
+        letter-spacing: 0.1rem;
+        transition: all 0.5s ease;
+        font-size: 0.8rem;
+        border-right: 1px solid #949494;
+    }
+
+    .et-hero-tabs,
+    .et-slide {
+        h1 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+    }
+
+    .et-hero-tab {
         font-size: 1rem;
     }
-	}
-	.et-hero-tab {
-		font-size: 1rem;
-	}
 
     .pl-6 {
         padding: .5rem 10rem;
@@ -261,17 +471,17 @@ a {
         font-weight: 400;
         line-height: 32px;
         word-wrap: break-word;
-        }
+    }
 
     .drivingbusiness {
         width: 559px;
-            color: white;
-            font-size: 50px;
-            font-family: Metropolis;
-            font-weight: 600;
-            text-transform: capitalize;
-            line-height: 70px;
-            word-wrap: break-word;
+        color: white;
+        font-size: 50px;
+        font-family: Metropolis;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 70px;
+        word-wrap: break-word;
     }
 
     .StartYourAiProject {
@@ -280,16 +490,16 @@ a {
     }
 
     .frame-392 {
-        
+
         height: 138px;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         gap: 20px;
         display: inline-flex;
-      }
-      
-      .frame-388 {
+    }
+
+    .frame-388 {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 12px;
@@ -300,17 +510,21 @@ a {
         align-items: center;
         gap: 10px;
         display: inline-flex;
-      }
-      
-      .ai-technologies-text-small {
+    }
+
+    .Aitechno {
+        height: 512px;
+    }
+
+    .ai-technologies-text-small {
         color: #65CDAA;
         font-size: 18px;
         font-family: Satoshi, sans-serif;
         font-weight: 500;
         word-wrap: break-word;
-      }
-      
-      .ai-technologies-text-large {
+    }
+
+    .ai-technologies-text-large {
         align-self: stretch;
         text-align: center;
         color: white;
@@ -320,30 +534,159 @@ a {
         text-transform: capitalize;
         line-height: 70px;
         word-wrap: break-word;
-      }
+    }
 
-      .techimg {
+    .techimg {
         width: 80px;
-      }
-      .techimg2 {
-        width: 150px;
-      }
+    }
 
-      .ailogo {
+    .techimg2 {
+        width: 150px;
+    }
+
+    .ailogo {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         padding: .2rem 1.5rem;
+    }
+
+    .OurStory {
+        width: 326px;
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .aboutimg {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .aboutimg,
+    .aboutusz {
+        width: 40%;
+    }
+
+
+
+    .aboutimgs {
+        width: 100%;
+    }
+
+    .CodiaksSpec span {
+        color: #1E1E1E;
+        font-size: 20px;
+        font-family: Satoshi;
+        font-weight: 400;
+        line-height: 35px;
+        word-wrap: break-word;
+    }
+
+    .CodiaksSpec>.span2 {
+        font-weight: 600;
+    }
+
+    .Frame489 {
+        display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+    }
+
+    .AiServicesSection {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .UnlockThe {
+        width: 597px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .Frame487 {
+        width: 597px;
+    }
+
+    .div1 {
+        width: 412px;
+    }
+
+    .group {
+        width: 467px;
+        height: 523px;
+        
       }
+      
+      .rectangle-outer {
+        width: 467;
+        height: 523px;
+        position: absolute;
+        background: #FAFAFA;
+        border-radius: 20px;
+      }
+      
+      .rectangle-inner {
+        width: 467px;
+        height: 322px;
+      
+        background: #D9D9D9;
+        border-radius: 20px;
+      }
+      
+      .image {
+        width: 467px;
+        height: 322px;
+    
+        border-radius: 20px;
+      }
+      
+      .frame {
+        width: 412;
+        height: 109px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+      }
+      
+      .title {
+        align-self: stretch;
+        color: #1E1E1E;
+        font-size: 30px;
+        font-family: Metropolis, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+        word-wrap: break-word;
+        padding: 1rem 0;
+        
+      }
+      
+      .description {
+        width: 100%;
+        color: #1E1E1E;
+        font-size: 20px;
+        font-family: Satoshi, sans-serif;
+        font-weight: 400;
+        line-height: 32px;
+        word-wrap: break-word;
+      }
+
+
+
+    
 
 
 }
 
 @media (min-width: 1441px) {
-	.herosection {
+    .herosection {
         height: 100vh;
-    } 
+    }
 
     .weofferAi {
         width: 650px;
@@ -353,7 +696,91 @@ a {
         font-weight: 400;
         line-height: 32px;
         word-wrap: break-word;
-}
+    }
+
+    .Frame488 {
+        width: 1440px;
+        height: 138px;
+        justify-content: center;
+        align-items: center;
+        gap: 246px;
+        display: inline-flex;
+        margin: 2rem 1rem;
+
+    }
+
+    .Frame489 {
+        margin: 4rem 1rem 5rem 1rem;
+        width: 1440px;
+        
+        
+    }
+
+
+
+    .AiProduct {
+        width: 412px;
+        color: #1E1E1E;
+        font-size: 30px;
+        font-family: Metropolis;
+        font-weight: 600;
+        text-transform: capitalize;
+        word-wrap: break-word;
+    }
+
+    .Frame489 {
+        display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 0fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+    }
+
+    .card1 {
+        padding: 1rem;
+        border-right: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+        border-left: none;
+        border-top: none;
+      
+    }
+    
+    .card2 {
+        padding: 1rem;
+        border-bottom: 1px solid #949494;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    .card3 {
+        padding: 1rem;
+        border-left: 1px solid #949494;
+        border-bottom: 1px solid #949494;
+        border-right: none;
+        border-top: none;
+    }
+
+
+    .resource-para {
+        width: 944px;
+            text-align: center;
+            color: #1E1E1E;
+            font-size: 20px;
+            font-family: Satoshi;
+            font-weight: 400;
+            line-height: 32px;
+            word-wrap: break-word;
+        
+    }
+
+
+    
+      
+
+
+
+
+
 
 
 }
