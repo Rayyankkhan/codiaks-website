@@ -2,6 +2,8 @@
 @import url('https://fonts.cdnfonts.com/css/inter');
 @import url('https://fonts.cdnfonts.com/css/space-grotesk');
 @import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
 
 body {
     margin: 0;
@@ -403,10 +405,454 @@ a {
     padding: 1rem;
   }
 
+  /* Testimonial section */
+
+  /* Base styles for mobile-first (320px to 768px) */
+.testimonial-container {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+    background: #FAFAFA;
+    border-radius: 20px;
+    border: 1px solid #D1D1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .testimonial-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-text {
+    text-align: center;
+    color: #393C41;
+    font-size: 14px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .author-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .author-name {
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 600;
+  }
+  
+  .author-role {
+    text-align: center;
+    color: #65CDAA;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+  
 
 
+.bg-green {
+    background: linear-gradient(142deg, #65CDAA 40%, #3E9175 100%) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+}
+
+.faq-maincon {
+
+}
+
+/* Base styles for mobile-first (320px to 768px) */
+.feature-section {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .feature-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .feature-number {
+    color: #65CDAA;
+    font-size: 30px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  
+  .feature-title {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30px;
+  }
+  
+  .feature-description {
+    color: #1E1E1E;
+    font-size: 14px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 0;
+    border: 1px solid #D1D1D1;
+  }
+
+  .bg-industry {
+    width: 100%;
+    max-width: 1920px;
+    height: 576px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/images/industry.svg');
+  }
+
+  /* Base styles for mobile-first (320px to 768px) */
+.frame-443 {
+    width: 100%;
+    max-width: 246px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .healthcare {
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .description {
+    width: 100%;
+    color: white !important;
+    font-size: 16px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+
+  .w-80 {
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    z-index: 999;
+  }
+
+.faq {
+    background-color: #FAFAFA;
+}
 
 
+.industry-card {
+    width: 364px; 
+    height: 576px;
+    border-left: 1px solid #FAFAFA;
+    border-right: 1px solid #FAFAFA;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 3.5rem;
+  } 
+
+  .group-1000005421 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .rectangle-61 {
+    width: 100%;
+    height: 841px;
+    position: absolute;
+    background-color: black;
+  }
+  
+  .frame-471 {
+    width: 100%;
+    max-width: 720px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .subscribe-our-newsletter {
+    color: #65CDAA;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .group-1000005419 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .rectangle-62 {
+    width: 100%;
+    height: 67px;
+    background-color: white;
+    border-radius: 100px;
+  }
+  
+  .frame-310 {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 15px 35px;
+    background: linear-gradient(142deg, #65CDAA 40%, #3E9175 100%);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .subscribe {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .arrow-up-right {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .vector {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+  }
+  
+  .enter-email {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    font-size: 16px;
+    color: #1E1E1E;
+  }
+  
+  .vector-50,
+  .vector-51 {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid white;
+  }
+  
+  .codiaks-2024 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .group-1000005477 {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quick-links,
+  .contact-info,
+  .follow-us {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details,
+  .home-about {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .contact-label {
+    font-weight: 700;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .logo {
+    width: 100%;
+  }
+  
+  .about-description {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .footer-section {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    padding: 70px 40px;
+  }
+  
+  .newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto 50px auto;
+  }
+  
+  .newsletter-text h2 {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 50px;
+    color: #65CDAA;
+    line-height: 1.2;
+  }
+  
+  .newsletter-form {
+    position: relative;
+    max-width: 720px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .newsletter-form input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .subscribe-btn {
+    background: linear-gradient(142deg, #65CDAA 40%, #3E9175 100%);
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 15px 30px;
+    margin-left: -80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow-icon {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    margin-left: 10px;
+  }
+  
+  .divider-line {
+    width: 100%;
+    border-top: 1px solid white;
+    margin: 40px 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .quick-links, .contact-info, .follow-us {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .quick-links h3, .contact-info h3, .follow-us h3 {
+    font-size: 30px;
+    font-family: 'Metropolis', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .quick-links ul, .contact-info p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .follow-us .social-icons {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .social-icons div {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(142deg, #65CDAA 40%, #3E9175 100%);
+  }
+  
+  .footer-logo {
+    max-width: 444px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+  }
+  
+  .footer-logo img {
+    width: 319px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
 
 
 @media (min-width: 768px) {
@@ -574,10 +1020,7 @@ a {
         justify-content: end;
     }
 
-    .aboutimg,
-    .aboutusz {
-        width: 40%;
-    }
+    
 
 
 
@@ -621,9 +1064,7 @@ a {
         width: 597px;
     }
 
-    .div1 {
-        width: 412px;
-    }
+    
 
     .group {
         width: 467px;
@@ -690,10 +1131,139 @@ a {
       }
 
 
+      /* Testimonial Section */
 
+      .Frame450 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .feature-section {
+        padding: 0 40px;
+        gap: 40px;
+      }
     
+      .feature-item {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .feature-header {
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+      }
+    
+      .feature-number {
+        font-size: 40px;
+        line-height: 45px;
+      }
+    
+      .feature-title {
+        font-size: 28px;
+        line-height: 35px;
+      }
+    
+      .feature-description {
+        font-size: 18px;
+        line-height: 28px;
+        width: 45%;
+      }
+    
+      .divider {
+        margin: 10px 0;
+      }
+
+      .testimonial-container {
+        max-width: 600px;
+        padding: 40px;
+      }
+    
+      .testimonial-content {
+        gap: 24px;
+      }
+    
+      .testimonial-image {
+        width: 80px;
+        height: 80px;
+      }
+    
+      .testimonial-text {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    
+      .author-name {
+        font-size: 18px;
+      }
+    
+      .author-role {
+        font-size: 14px;
+      }
 
 
+      .frame-443 {
+        max-width: 400px;
+        gap: 12px;
+      }
+    
+      .healthcare {
+        font-size: 28px;
+      }
+    
+      .description {
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      .newsletter h2 {
+        font-size: 48px;
+      }
+    
+      .footer-links div {
+        width: 30%;
+      }
+    
+      .footer-bottom .about-us {
+        width: 60%;
+      }
+
+      .frame-471 {
+        max-width: 960px;
+      }
+    
+      .subscribe-our-newsletter {
+        font-size: 40px;
+      }
+    
+      .codiaks-2024 {
+        font-size: 18px;
+      }
+    
+      .group-1000005477 {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    
+      .contact-details,
+      .home-about {
+        font-size: 18px;
+      }
+}
+
+@media (min-width: 1024px) {
+    .div1 {
+        width: 412px;
+    }
+
+    .aboutimg,
+    .aboutusz {
+        width: 40%;
+    }
 }
 
 @media (min-width: 1441px) {
@@ -851,16 +1421,251 @@ a {
         word-wrap: break-word;
       }
 
+
+      /* Testimonial card */
+/* .Frame450 {
+    width: 510px; 
+    height: 138px;
+}
+
+.w-2900 {
+    width: 100%;
+    max-width: 1900px;
+}
+
+.testimonial-container {
+  width: 710px;
+  height: 432px;
+  width: 710px;
+  height: 432px;
+  background: #FAFAFA;
+  border-radius: 20px;
+  border: 1px solid #D1D1D1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.testimonial-content {
+  width: 542px;
+  height: 354.65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  width: 542px;
+  text-align: center;
+  color: #393C41;
+  font-size: 20px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.author-name {
+  text-align: center;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-family: Metropolis, sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.author-role {
+  text-align: center;
+  color: #65CDAA;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+} */
+
+.w-2900 {
+    width: 100%;
+    max-width: 1900px;
+}
+
+.testimonial-container {
+    width: 710px;
+    height: 432px;
+    padding: 50px;
+  }
+
+  .testimonial-content {
+    width: 542px;
+    gap: 24px;
+  }
+
+  .testimonial-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .testimonial-text {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .author-name {
+    font-size: 20px;
+  }
+
+  .author-role {
+    font-size: 16px;
+  }
+
+/* FAQ */
+.faq-maincon {
+    width: 1442px; height: 810px;   
+}
+
+.faq-frame1 {
+    width: 710px !important; 
+    height: 810px !important;
+}
+
+.faq-head {
+    width: 712px;
+        color: #1E1E1E;
+        font-size: 50px;
+        font-family: Metropolis;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 70px;
+        word-wrap: break-word
+    }
+
+.Frame500 {
+    width: 1441px;
+        height: 1052px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+        display: inline-flex;
+    }
+
+
+    .feature-section {
+        max-width: 1441px;
+        padding: 0 60px;
+        gap: 50px;
+        margin: 5rem auto;
+      }
     
-
-
+      .feature-item {
+        justify-content: space-between;
+        align-items: center;
+      }
     
-      
+      .feature-header {
+        gap: 50px;
+      }
+    
+      .feature-number {
+        font-size: 50px;
+        line-height: 55px;
+      }
+    
+      .feature-title {
+        width: 300px;
+        font-size: 35px;
+        line-height: 45px;
+      }
+    
+      .feature-description {
+        font-size: 20px;
+        line-height: 32px;
+        width: 50%;
+      }
+
+      .bg-industry {
+        width: 1920px;
+      }
 
 
+      .industry-card {
+        width: 364px; height: 576px;
+        border-left: 1px solid #FAFAFA;
+        border-right: 1px solid #FAFAFA;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        padding: 3.5rem;
+      }
 
 
+      .frame-443 {
+        max-width: 246px;
+        height: 109px;
+        gap: 15px;
+      }
+    
+      .healthcare {
+        font-size: 30px;
+      }
+    
+      .description {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .frame-471 {
+        max-width: 1440px;
+      }
+    
+     .newsletter-text {
+        width: 467px;
+     }
+
+     .newsletter-form {
+        width: 720px; height: 67px;
+     }
+
+     .footer-logo > p {
+        width: 414px;
+        text-align: left;
+            color: white;
+            font-size: 20px;
+            font-family: 'Satoshi';
+            font-weight: 400;
+            line-height: 32px;
+            word-wrap: break-word;
+
+    }
+
+    .footer-logo {
+        text-align: left;
+    }
+
+    .divider-line {
+        width: 1440px;
+    }
 
 
 
 }
+
+
+
+
