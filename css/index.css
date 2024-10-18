@@ -70,6 +70,23 @@ a {
     text-decoration: none !important;
 }
 
+.et-hero-tab {
+  text-align: center;
+    /* color: #65CDAA; */
+    color: #1E1E1E !important;
+    font-size: 20px !important;
+    font-family: 'Satoshi';
+    font-weight: 700 !important;
+    word-wrap: break-word;
+  }
+
+  .et-hero-tab:active,  .et-hero-tab:hover {
+    color: #65CDAA;
+  }
+
+
+
+
 
 
 .et-hero-tab:last-of-type {
@@ -852,6 +869,29 @@ a {
     font-size: 20px;
   }
   
+  .Ai-card-heading {
+    width: 100%;
+      color: #1E1E1E;
+      font-size: 20px;
+      font-family: 'Metropolis';
+      font-weight: 600;
+      text-transform: capitalize;
+      word-wrap: break-word;
+  }
+
+  .Ai-card-para {
+    width: 100%;
+      color: #1E1E1E;
+      font-size: 16px;
+      font-family: 'Satoshi';
+      font-weight: 400;
+      line-height: 32px;
+      word-wrap: break-word;
+  }
+
+  .textblack {
+    color: #1E1E1E !important;
+  }
   
 
 
@@ -993,11 +1033,11 @@ a {
     }
 
     .techimg {
-        width: 80px;
+        width: 90px;
     }
 
     .techimg2 {
-        width: 150px;
+        width: 160px;
     }
 
     .ailogo {
@@ -1019,6 +1059,8 @@ a {
         align-items: center;
         justify-content: end;
     }
+
+
 
     
 
@@ -1253,6 +1295,26 @@ a {
       .home-about {
         font-size: 18px;
       }
+
+      .Ai-card-heading {
+        width: 412px;
+          color: #1E1E1E;
+          font-size: 30px;
+          font-family: 'Metropolis';
+          font-weight: 600;
+          text-transform: capitalize;
+          word-wrap: break-word;
+      }
+    
+      .Ai-card-para {
+        width: 392px;
+          color: #1E1E1E;
+          font-size: 20px;
+          font-family: 'Satoshi';
+          font-weight: 400;
+          line-height: 32px;
+          word-wrap: break-word;
+      }
 }
 
 @media (min-width: 1024px) {
@@ -1267,8 +1329,66 @@ a {
 }
 
 @media (min-width: 1441px) {
+
+  .w-320 {
+    width: 320px !important;
+  }
+
+  .topbar {
+    width: 1440px ;
+  }
     .herosection {
-        height: 100vh;
+        width: 1920px;
+        height: 860px;
+    }
+
+    .hero-content{
+      width: 1472px;
+      height: 666px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding-left: 4rem;
+      
+    }
+    .hero-content-div2{
+      width: 650px;
+      height: 497px;
+      
+    }
+
+    .frame-392 {
+      width: 445px;
+    }
+
+
+    .ailogo {
+      width: 1821px;
+      height: 151px;
+    }
+
+
+    .aboutuscontainer{
+      width: 1425px;
+      height: 576px;
+      justify-content: space-between !important;
+
+    }
+
+
+    .about-main-container {
+      width: 1920px;
+      height: 860px;
+    }
+
+    .aboutimg, .aboutimgs {
+      width: 710px;
+      height: 576px;
+    }
+
+    .aboutusz {
+      width: 675px;
+      height: 556px;
     }
 
     .weofferAi {
@@ -1298,7 +1418,7 @@ a {
 
     .Frame489 {
         margin: 4rem 1rem 5rem 1rem;
-        width: 1440px;
+        width: 1440px !important;
         
         
     }
@@ -1324,6 +1444,7 @@ a {
     }
 
     .card1 {
+        
         padding: 1rem;
         border-right: 1px solid #949494;
         border-bottom: 1px solid #949494;
@@ -1345,6 +1466,14 @@ a {
         border-bottom: 1px solid #949494;
         border-right: none;
         border-top: none;
+    }
+
+    .card1, .card2, .card3 {
+      width: 480px;
+      height: 365px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
 
@@ -1651,7 +1780,7 @@ a {
             font-weight: 400;
             line-height: 32px;
             word-wrap: break-word;
-
+            padding-left: 1.5rem;
     }
 
     .footer-logo {
@@ -1661,6 +1790,43 @@ a {
     .divider-line {
         width: 1440px;
     }
+
+    .Ai-card-heading {
+      width: 412px;
+        font-size: 30px;
+
+    }
+  
+    .Ai-card-para {
+      width: 392px;
+        font-size: 20px;
+        line-height: 32px;
+        word-wrap: break-word;
+    }
+
+    .newsletter-container {
+      width: 1440px;
+      margin: 0 !important;
+    }
+
+    .fotdiv2 {
+      width: 1475.15px;
+      justify-content: space-between;
+    }
+
+    .footer-links {
+      margin: 0 !important;
+      padding-right: 2rem;
+    }
+
+    .footer-logo {
+      margin: 0 !important;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      flex-direction: column;
+    }
+
 
 
 
