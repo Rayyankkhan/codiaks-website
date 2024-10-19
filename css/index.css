@@ -56,11 +56,30 @@ body {
     border: none;
     padding: 5px 12px;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Satoshi', sans-serif;
     font-weight: 500;
     word-wrap: break-word
 }
+
+.w-discussidea {
+  width: 257px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.w-faq {
+  width: 195px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .logowidth {
     width: 50%;
@@ -80,9 +99,13 @@ a {
     word-wrap: break-word;
   }
 
-  .et-hero-tab:active,  .et-hero-tab:hover {
+  .et-hero-tab:active{
     color: #65CDAA;
   }
+  .et-hero-tab:hover{
+    color: #65CDAA !important;
+  }
+
 
 
 
@@ -892,6 +915,53 @@ a {
   .textblack {
     color: #1E1E1E !important;
   }
+
+  .accordion-button {
+    color: #1E1E1E;
+      font-size: 20px;
+      font-family: 'Satoshi';
+      font-weight: 700;
+      line-height: 32px;
+      word-wrap: break-word;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: url('../assets/icons/dash.svg') !important;
+  }
+
+  .accordion-button:after {
+    background-image: url('../assets/icons/plus.svg') !important;
+  }
+
+  .accordion-body > p {
+      color: #1E1E1E;
+      font-size: 20px;
+      font-family: 'Satoshi';
+      font-weight: 400;
+      line-height: 32px;
+      word-wrap: break-word;
+  }
+
+
+  .faq-head {
+    color: #1E1E1E;
+        font-size: 40px;
+        font-family: 'Metropolis';
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 70px;
+        word-wrap: break-word
+  }
+
+
+  ul > li {
+    list-style: none;
+  }
+
+
+
+
+
   
 
 
@@ -909,7 +979,7 @@ a {
     }
 
     .FreeConsultation {
-        font-size: 16px;
+        font-size: 20px;
         padding: 12px 20px;
     }
 
@@ -1668,6 +1738,13 @@ a {
     width: 1442px; height: 810px;   
 }
 
+.faq {
+  height: 1110px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .faq-frame1 {
     width: 710px !important; 
     height: 810px !important;
@@ -1677,7 +1754,7 @@ a {
     width: 712px;
         color: #1E1E1E;
         font-size: 50px;
-        font-family: Metropolis;
+        font-family: 'Metropolis';
         font-weight: 600;
         text-transform: capitalize;
         line-height: 70px;
@@ -1717,7 +1794,7 @@ a {
       }
     
       .feature-title {
-        width: 300px;
+        width: 296px;
         font-size: 35px;
         line-height: 45px;
       }
@@ -1734,7 +1811,8 @@ a {
 
 
       .industry-card {
-        width: 364px; height: 576px;
+        width: 364px; 
+        height: 576px;
         border-left: 1px solid #FAFAFA;
         border-right: 1px solid #FAFAFA;
         display: flex;
