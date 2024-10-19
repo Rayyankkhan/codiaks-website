@@ -819,9 +819,12 @@ a {
     font-size: 20px;
     border-radius: 100px;
     padding: 15px 30px;
-    margin-left: -80px;
+    margin-left: -190px;
     display: flex;
     align-items: center;
+    width: 189px; 
+    height: 57px;
+    border: none;
   }
   
   .arrow-icon {
@@ -853,9 +856,16 @@ a {
     font-size: 30px;
     font-family: 'Metropolis', sans-serif;
     margin-bottom: 30px;
+    font-weight: 600;
   }
   
   .quick-links ul, .contact-info p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .homelinks > li {
     font-size: 20px;
     line-height: 32px;
     font-weight: 400;
@@ -961,6 +971,7 @@ a {
 
   ul > li {
     list-style: none;
+    margin: .2rem 0;
   }
 
   .tophead-height {
@@ -972,6 +983,14 @@ a {
     height: 100px;
   }
 
+  .fontweight400 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .contact-info > p {
+    font-weight: 700;
+  }
 
 
 
